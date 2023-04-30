@@ -28,10 +28,10 @@ Users should be able to:
 
 ### Screenshot
 <div>
-    <img src="solution_images/solution_mobileRating.jpg" width="auto" height="400" src="solution of rating on mobile view"/>
-    <img src="solution_images/solution_desktopRating.jpg" width="auto" height="400" src="solution of rating on desktop view"/>
-    <img src="solution_images/solution_mobileFeedback.jpg" width="auto" height="400" src="solution of feedback on mobile view"/>
-    <img src="solution_images/solution_desktopRating.jpg" width="auto" height="400" src="solution of feedback on desktop view"/>
+    <img src="solution_images/solution_mobileRating.jpg" width="auto" height="300" src="solution of rating on mobile view"/>
+    <img src="solution_images/solution_desktopRating.jpg" width="auto" height="300" src="solution of rating on desktop view"/>
+    <img src="solution_images/solution_mobileFeedback.jpg" width="auto" height="300" src="solution of feedback on mobile view"/>
+    <img src="solution_images/solution_desktopRating.jpg" width="auto" height="300" src="solution of feedback on desktop view"/>
 </div>
 
 ### Links
