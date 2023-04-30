@@ -5,7 +5,8 @@
     flex-direction: row;
     align-items: start;
     justify-content: start; 
-    max-width: u.rem(328);
+    max-width: 90%;
+    width: u.rem(328);
     margin-block: 10px;
     @include u.breakpoint(large) {
         width: u.rem(410);

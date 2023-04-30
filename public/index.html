@@ -9,63 +9,64 @@
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
+    <main class="main">
+        <!-- Rating state start -->
+        <section class="rating section displayOn">
+            <div class="rating__icon">
+                <img src="../images/icon-star.svg" alt="startIcon">
+            </div>
+            <h1 class="rating__title">How did we do?</h1>
+            <p class="rating__note">
+                Please let us know how we did with your support request. All feedback is appreciated 
+                to help us improve our offering!
+            </p>
+            <div class="rating__rate">
+                <div>
+                    <span class="defaultRate">1</span>
+                </div>
+                <div>
+                    <span class="defaultRate">2</span>        
+                </div>
+                <div>
+                    <span class="defaultRate">3</span>
+                </div>
+                <div>
+                    <span class="defaultRate">4</span>
+                </div>
+                <div>
+                    <span class="defaultRate">5</span>
+                </div>
+            </div>
+            <button class="rating__submit">
+                <span>Submit</span>
+            </button>
+        </section>
+        <!-- Rating state end -->
 
-  <!-- Rating state start -->
-  <section class="rating section displayOn">
-      <div class="rating__icon">
-          <img src="../images/icon-star.svg" alt="startIcon">
-      </div>
-      <h1 class="rating__title">How did we do?</h1>
-      <p class="rating__note">
-          Please let us know how we did with your support request. All feedback is appreciated 
-          to help us improve our offering!
-      </p>
-      <div class="rating__rate">
-          <div>
-              <span class="defaultRate">1</span>
-          </div>
-          <div>
-              <span class="defaultRate">2</span>        
-          </div>
-          <div>
-              <span class="defaultRate">3</span>
-          </div>
-          <div>
-              <span class="defaultRate">4</span>
-          </div>
-          <div>
-              <span class="defaultRate">5</span>
-          </div>
-      </div>
-      <button class="rating__submit">
-          <span>Submit</span>
-      </button>
-  </section>
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-  <section class="feedback section displayOff">
-      <div class="feedback__illustration">
-          <img class="" src="../images/illustration-thank-you.svg" alt="illustrative message of thanking you for rating us">
-      </div>
-      <div class="feedback__youSelected">
-          <span></span>
-      </div>
-      <h2 class="feedback__thanking">Thank you!</h2>
-      <p class="feedback__finalNote">
-          We appreciate you taking the time to give a rating. If you ever need more support, 
-          don't hesitate to get in touch!
-      </p>
-  </section> 
-  <!-- Thank you state end -->
-  <footer class="footer">
-    <div class="footer__wrapper">
-      <p>
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Milos Novakovic</a>.
-      </p>
-    </div>
-  </footer>
+        <!-- Thank you state start -->
+        <section class="feedback section displayOff">
+            <div class="feedback__illustration">
+                <img class="" src="../images/illustration-thank-you.svg" alt="illustrative message of thanking you for rating us">
+            </div>
+            <div class="feedback__youSelected">
+                <span></span>
+            </div>
+            <h2 class="feedback__thanking">Thank you!</h2>
+            <p class="feedback__finalNote">
+                We appreciate you taking the time to give a rating. If you ever need more support, 
+                don't hesitate to get in touch!
+            </p>
+        </section>
+        <!-- Thank you state end --> 
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+        <p>
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Milos Novakovic</a>.
+        </p>
+        </div>
+    </footer>
   <script src="script.js"></script>
 </body>
 </html>

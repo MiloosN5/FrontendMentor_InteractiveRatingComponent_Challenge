@@ -1,6 +1,14 @@
 @use '../globals' as g;
 @use '../util' as u;
 
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
 .section {
     flex-direction: column;
     width: u.rem(328);
