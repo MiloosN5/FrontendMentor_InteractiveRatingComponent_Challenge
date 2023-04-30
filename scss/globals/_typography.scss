@@ -1,0 +1,100 @@
+@use 'colors' as c;
+@use '../util' as u;
+
+//----------------------- paragraph -----------------------//
+    p {
+        font-size: u.rem(15);
+        font-weight: u.$font-regular;
+        letter-spacing: -0.40px;
+        line-height: 1.4;
+        color: c.$light-grey;
+        @include u.breakpoint(large) {
+            font-size: u.rem(16);
+            line-height: 1.5;
+        }
+    }
+
+//----------------------- headings (h1-h6) -----------------------//
+    h1 {
+        font-size: u.rem(24);
+        font-weight: u.$font-bold;
+        color: c.$white;
+        @include u.breakpoint(large) {
+            font-size: u.rem(28);
+        }
+    }
+
+    h2 {
+        font-size: u.rem(24);
+        color: c.$white;
+        font-weight: u.$font-bold;
+        @include u.breakpoint(large) {
+            font-size: u.rem(27);
+        }
+    }
+
+//----------------------- span -----------------------//
+    span {
+        font-size: u.rem(14);
+        text-align: center;
+    }
+
+    .rating {
+        span {
+            font-weight: u.$font-bold;
+        }
+        &__rate {
+            div {
+                span {
+                    font-size: u.rem(16);
+                    line-height: u.rem(46);
+                    transition: 0.5s;
+                    @include u.breakpoint(large) {
+                        line-height: u.rem(52);
+                    }
+                    &:hover {
+                        background-color: c.$orange;
+                        color: c.$white;
+                    }
+                }
+            }
+        }
+        &__submit {
+            span {
+                text-transform: uppercase;
+                line-height: u.rem(50);
+                color: c.$white;
+                letter-spacing: 2px;
+                transition: color 0.5s;
+                @include u.breakpoint(large) {
+                    font-size: u.rem(15);
+                    line-height: u.rem(50);
+                }
+                &:hover {
+                    color: c.$orange;
+                }
+            }
+        }
+    }
+
+    .feedback {
+        span {
+            color: c.$orange;
+            font-weight: u.$font-regular;
+            line-height: u.rem(19);
+            @include u.breakpoint(large) {
+                font-size: u.rem(16);
+                letter-spacing: -0.4px;
+            }
+        }
+    }
+
+//---------------------- FOOTER ----------------------//
+    .footer { 
+        font-size: u.rem(14); 
+        text-align: center; 
+        a {
+            color: c.$font-color-footer; 
+        }
+    }
+
