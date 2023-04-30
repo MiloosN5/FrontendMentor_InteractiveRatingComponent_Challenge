@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution URL]([https://github.com/MiloosN5/FrontendMentor_ProductPreviewCardComponent_Challenge](https://github.com/MiloosN5/InteractiveRatingComponent_Challenge))
+- Solution URL: [My solution URL](https://github.com/MiloosN5/InteractiveRatingComponent_Challenge)
 - Live Site URL: [My live site URL](https://miloosn5.github.io/FrontendMentor_ProductPreviewCardComponent_Challenge/)
 
 
