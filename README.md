@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution URL](https://github.com/MiloosN5/InteractiveRatingComponent_Challenge)
-- Live Site URL: [My live site URL](https://miloosn5.github.io/InteractiveRatingComponent_Challenge/public/)
+- Solution URL: [My solution URL](https://github.com/MiloosN5/FrontendMentor_InteractiveRatingComponent_Challenge)
+- Live Site URL: [My live site URL](https://miloosn5.github.io/FrontendMentor_InteractiveRatingComponent_Challenge/public/)
 
 
 ## My process
